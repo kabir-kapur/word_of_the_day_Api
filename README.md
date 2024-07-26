@@ -10,7 +10,7 @@ To get the WOD Django server spun up: `❱ python3 manage.py runserver`
 - Houses business logic for each WOD API and distributes the corresponding `main` method for each bite-sized piece of logic.
 #### `word_of_the_day/asgi.py`
 - I have no fucking idea
-- #### `word_of_the_day/urls.py`
+#### `word_of_the_day/urls.py`
 - Uses Django to manage routing requests to each WOD API to their corresponding view
 #### `word_of_the_day/wsgi.py`
 - Literally no idea
